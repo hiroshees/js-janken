@@ -7,6 +7,13 @@ loadScene.preload = function() {
     // ゲームオーバー画像
     this.load.image('gameover', 'assets/images/gameover.png');
     
+    // じゃんけん
+    this.load.image('gu', 'assets/images/janken_gu.png');
+    this.load.image('choki', 'assets/images/janken_choki.png');
+    this.load.image('pa', 'assets/images/janken_pa.png');
+    
+    // リスタート画像
+    this.load.image('button_restart', 'assets/images/button_restart.png');
 };
 
 loadScene.create = function() {
